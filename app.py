@@ -24,7 +24,7 @@ class Product(Base):
 Base.metadata.create_all(bind=engine)
 
 # FastAPI app instance
-app = FastAPI()
+app = FastAPI() 
 
 # Dependency to get DB session
 def get_db():
